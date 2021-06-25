@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The College Website</title>
+    </head>
+    <body>
+        <div class="header">
+            <img alt="JSSlogo" src="map.jpg">
+            <h1 >JSS Academy of Technical Education<br>Noida, Sector 62</h1>
+            <style>
+                .header{
+                    text-align:center;
+                    display : flex ;
+                    flex-direction: row;
+                    justify-content : center ;
+                    background-color: tomato;
+                }
+                .header img{
+                    position: absolute;
+                    border-radius: 500%;
+                    width: 100px;
+                    height: 100px;
+                    left: 8%;
+                    top: 3%;
+                }
+            </style>
+            </div>
+          <div class="navbar">
+            <ul>
+                <li><a href="nirf.asp">NIRF</a></li>
+                <li><a href="library.asp">Library</a></li>
+                <li><a href="awards.asp">Awards and Honours</a></li>
+                <li><a href="brochure.asp">College Brochure</a></li>
+                <li><a href="contact.asp">Contact Us</a></li>
+                <li><a href="about.asp">About</a></li>
+              </ul>
+              <style>
+                  .navbar ul {
+                      list-style-type: none;
+                      margin: 0;
+                      padding-top: 8px;
+                      overflow: hidden;
+                      background-color:white;
+                      height: 28px;
+                    }
+                .navbar li{
+                    display: inline;
+                    border-right: 2px solid black;
+                }
+                .navbar li a {
+                    color: black;
+                    text-align: center;
+                    padding: 0px 60px;
+                    text-decoration: none;
+                }
+                .active {
+                    background-color: black;
+                }
+              </style>
+          </div>
+          <div class="bar">
+            <ul>
+                <li><a href="home.asp"><bold>HOME</bold></a></li>
+                <li><a href="about.asp"><bold>ABOUT US</bold></a></li>
+                <li><a href="campus.asp"><bold>CAMPUS FACILITIES</bold></a></li>
+                <li><a href="academics.asp"><bold>ACADEMICS</bold></a></li>
+                <li><a href="placements.asp"><bold>TRAININGS AND PLACEMENTS</bold></a></li>
+                <li><a href="research.asp"><bold>RESEARCH AND DEVELOPMENT</bold></a></li>
+            </ul>
+              <style>
+                  .bar ul{ 
+                      list-style: none;
+                      margin: 0%;
+                      padding-top: 8px;
+                      overflow: hidden;
+                      background-color: rgb(163, 163, 163);
+                      height:30px;
+                  }
+                  .bar li{
+                      display: inline;
+                  }
+                  .bar li a{
+                      color: black;
+                      padding: 0px 34px;
+                  }
+              </style>
+          </div>
+          <div class="side">
+              <img src="data:image/jpeg;base64,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" alt="NBA">
+              <ul>
+                  <li><a href="admission.asp">ADMISSIONS 2021-22</a></li>
+                  <li><a href="fees.asp">B.TECH/MCA/MBA FEES 2020</a></li>
+                  <li><a href="infrastructure.asp">COLLEGE INFRASTRUCTURE</a></li>
+                  <li><a href="verification.asp">STUDENT VERIFICATION</a></li>
+              </ul>
+              <style>
+                  .side {
+                      margin-top: 20px;
+                      display: flex;
+                      height: 400px;
+                  }
+                  .side ul {
+                      list-style: none;
+                      border: solid 2px black;
+                      padding:5px;
+                      position: relative;
+                      margin-left: 123px;
+                  }
+                  .side li a{
+                      padding: 23px 23px;
+                  }
+                  .side img{
+                      margin-top: 10px;
+                      margin-left: 30px;
+                      border: solid 6px black;
+                      height: 350px;
+                      width: 650px;
+                  }
+              </style>
+          </div>
+          <div class="announce">
+              <h2>Announcements</h2>
+              <style>
+                  .announce{
+                      padding-top: 0px; 
+                      padding-left: 3px;
+                      background-color: #ff4406;
+                      height: 38px;
+                      color: white;
+                      font-family: Verdana, Geneva, Tahoma, sans-serif;
+                  }
+              </style>
+          </div>
+          <div class="list">
+            Walkin counselling and admission against vacant seats<br>
+            AMIE - Laboratory Experiments - Tentative Schedule<br>
+            Extension of date for depositing fee for Academic Year 2020-2021<br>
+            Redressal of Grievances Related to COVID-19 Pandemic - Public Notice - UGC<Br>
+            Internal Hackathon SIH-2020 scheduled on January 21st 2020 
+            INTERNATIONAL CONFERENCE ON INTELLEGENT CONTROL AND COMPUTATION FOR SMART ENERGY AND MECHATRONIC SYSTEMS (ICICCSEMS-2020) 25-26 September 2020 - JSSATE Noida UP, INDIA, ORGANIZED BY DEPARTMENT OF E&CE, CSE AND INFORMATION TECHNOLOGY    
+            celebrating the 5th International Yoga Day on 21.06.2019 at 08.00 AM<br>
+            Registration and Commencement of B.Tech, MBA, MCA and M.Tech odd semester classes for the session 2019-20<br>
+            AICTE Sponsored Two Weeks Faculty Development Programme On Mechanical Design Techniques for Academic and Industrial Environment from 8-20 July 2019<br>
+            Team Octavius participated in Formula Bharat 2019 and stood 10 Rank in all India at Coimbatore from 23-27 January 2019<br>
+            National Conference on Smart Energy Systems (NCSES-2019) on 14-15 June 2019<br>
+            AICTE MoUs for enhance the technical education<br>
+            AICTE Clean and Green Campus Award 2017. First in Northern Region and seventh at all India level for our college - JSSATE Noida
+            Notice on Menance of ragging
+
+            <style>
+                .list{
+                    background-color: black;
+                    color: white;
+                    margin: 0px;
+                    padding: 15px;
+                    padding-left: 25px;
+                    line-height: 30px;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    height: 300px;
+                    overflow: scroll;
+                    overflow-x: hidden;
+                }
+            </style>
+          </div>
+          <div class="general">
+              <div class="info vision"><h3>Vision</h3>
+                  <p><strong>JSS Academy of Technical Education Noida</strong>  aims to become an 
+                      Institution of excellence in imparting quality Outcome 
+                      Based Education that empowers the young generation with
+                      Knowledge, Skills, Research, Aptitude and 
+                      Ethical values to solve Contemporary Challenging Problems</p>
+              </div>
+              <div class="info mission"><h3>Mission</h3>
+                  <p>
+                      <ol>
+                          <li><b style="color:red;">D</b>evelop a platform for achieving globally 
+                            acceptable level of intellectual acumen and 
+                            technological competence</li>
+                          <li><b style="color: red;">C</b>reate an inspiring ambience that raises 
+                              the motivation level for conducting quality 
+                              research</li>
+                          <li><b style="color: red;">P</b>rovide an environment for acquiring ethical 
+                              values and positive attitude</li>
+                      </ol>
+                  </p>
+              </div>
+              <div class="info focus"><h3>Entrepreneurship Focus</h3>
+                  <p><b>JSS Business Incubator</b> is India’s first Technology Based Incubator 
+                      (TBI), started in 2000 with support from National Science & Technology 
+                      Entrepreneurship Development Board (NSTEDB) & Department of 
+                      Science & Technology (DST), Government of India. We have graduated over 
+                      100 start-ups and currently incubating over 30. In case you are in Blockchain, 
+                      Artificial Intelligence +Machine Learning +Big Data or IOT space, we can enable your 
+                      growth faster through our wide network of Industry mentors, enabled market access 
+                      (providing qualified leads) and reputed angel and venture investors.</p>
+              </div>
+              
+              <style>
+                  .general{
+                      font-family: Verdana, Geneva, Tahoma, sans-serif;
+                      display: flex;
+                     
+                  }
+                  .info{
+                      margin:10px;
+                      padding: 0px;
+                  }
+                  .info h3{
+                      border: #ff4406 1px solid;
+                      background-color: #ff4406;
+                      color: white;
+                      text-align: center;
+                  }
+                  .info ol{
+                      width: 250px;
+                  }
+              </style>
+          </div>
+          <hr>
+          <div class="reward">
+              <div class="honour item1"><h3>Awards and Honours</h3>
+                  <img src="https://jssaten.ac.in/img/nirf.jpg">
+                  <img src="https://jssaten.ac.in/img/ew.png">
+              </div>
+              <div class="honour item2"><h3>National Board of Accrediation</h3>
+                  <img src="https://jssaten.ac.in/img/nba.png">
+                  <h4 style="color: #1e73be;font-family: Verdana, Geneva, Tahoma, sans-serif;"><strong>
+                    NBA Accreditation of JSS Academy of Technical Education 
+                    Noida – NBA Accredited Programme at Engineering wing.
+                  </strong></h4>
+              </div>
+              <style>
+                  .reward{
+                      font-family: Verdana, Geneva, Tahoma, sans-serif;
+                      display: flex;
+                  }
+                  .honour{
+                      margin: 15px;
+                  }
+                  .honour h3{
+                      background-color: #ff4406 ;
+                      color: white;
+                      padding: 5px;
+                      text-align: center;
+                  }
+                  .honour img{
+                      width: 300px;
+                  }
+                  .item1 {
+                      width: 650px;
+                  }
+                  .item2{
+                      width: 650px;
+                  }
+              </style>
+          </div>
+          <hr>
+</html>
